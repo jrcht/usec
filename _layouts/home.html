@@ -1,0 +1,70 @@
+---
+layout: default
+---
+{%- include masthead.html
+    title="Secure Your Hardware"
+    emphasize="Protect Your Future"
+    subtitle="Cutting-edge solutions for unbreakable hardware security. Stay ahead of threats and safeguard your technology."
+    button_url="/contact"
+    button_text="Get Started"
+    button_url_alt="/contact"
+    button_text_alt="Learn More"
+    image="/assets/img/usec-hero-image.jpeg"
+    image_alt="Hardware Security Illustration"
+-%}
+<div class="home">
+    {%- include col_section_left_text.html
+        image_path=""
+        image_alt="Description of your image"
+        title="Your Custom Title"
+        description="Your custom description goes here."
+        cta_url=""
+        cta_text="Learn More"
+    -%}
+    {%- include col_section_right_text.html
+        image_path=""
+        image_alt="Description of your image"
+        title="Your Custom Title"
+        description="Your custom description goes here."
+        cta_url=""
+        cta_text="Learn More"
+    -%}
+    {%- include col_section_left_text.html
+        image_path=""
+        image_alt="Description of your image"
+        title="Your Custom Title"
+        description="Your custom description goes here."
+        cta_url=""
+        cta_text="Learn More"
+    -%}
+    
+    {%- include posts_list.html -%}
+    {%- include cta.html
+        title="Talk to an Expert"
+        description="We are ready to help you secure your hardware and protect your future."
+        button_url="/contact"
+        button_text="Contact Us"
+    -%}
+  {{ content }}
+  <!-- {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%} -->
+</div>
