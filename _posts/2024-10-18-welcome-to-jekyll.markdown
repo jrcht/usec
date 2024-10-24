@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-description: "Welcome to Jekyll!"
+title:  "How to break your hardware device"
+description: "Discover how to break your hardware device in this 'how-to' guide"
 date:   2024-10-18 19:47:08 +0200
 categories: jekyll update
-image: /assets/images/posts/welcome-to-jekyll.png
+image: /assets/img/usec-motherboard.jpeg
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
