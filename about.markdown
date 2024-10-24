@@ -2,7 +2,7 @@
 layout: default
 title: About
 permalink: /about/
-order: 2
+order: 3
 ---
 
 {% include masthead.html 
@@ -18,7 +18,7 @@ order: 2
 {% include col_section_right_text.html
     title="Strong security expertise"
     description="We are a small, yet agile team with 15+ years of experience exploiting device vulnerabilities. We think like hackers and use their tools and tactics to uncover security flaws other might miss."
-    image="/assets/images/about/about-mission.jpg"
+    image_path="/assets/img/usec-roman-korkikian.jpeg"
     image_alt="Our Mission"
     cta_text="Contact us"
     cta_link="/contact"

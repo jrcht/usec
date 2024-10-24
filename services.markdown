@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Services
-order: 3
+order: 2
 ---
 {% include masthead.html 
     title="Our services"

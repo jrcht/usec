@@ -7,7 +7,7 @@ order: 4
 {% include masthead.html 
     title="Contact us"
     subtitle="We're here to help you secure your devices"
-    image="/assets/img/usec-contact-hero.jpeg"
+    image="/assets/img/usec-motherboard.jpeg"
     image_alt="Contact us"
     button_text="Contact us"
     button_url="/contact"
